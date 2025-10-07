@@ -1,6 +1,6 @@
 # CareHub 🏥💊
 
-**MedixCare** is a smart, Python-powered hospital management and billing system designed to make patient care and payments seamless, fast, and digital. From registering patients to generating bills and sending them via WhatsApp, MedixCare transforms traditional hospital workflows into a modern, automated experience.
+**CareHub** is a smart, Python-powered hospital management and billing system designed to make patient care and payments seamless, fast, and digital. From registering patients to generating bills and sending them via WhatsApp, MedixCare transforms traditional hospital workflows into a modern, automated experience.
 
 ---
 
