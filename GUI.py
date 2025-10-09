@@ -245,7 +245,7 @@ def login():
 # ================= MAIN UI ==================
 main = t.Tk()
 main.title("🏥 CareHub Hospital System")
-main.geometry("1000x700")
+main.geometry("1920x1080")
 main.config(bg="gray")
 
 container = t.Frame(main)
@@ -258,7 +258,7 @@ for page in (lg, dg):
 
 # login page
 bg_img = Image.open("bg_login.jpg")
-bg_img = bg_img.resize((1000, 700))
+bg_img = bg_img.resize((1920, 1080))
 bg_photo = ImageTk.PhotoImage(bg_img)
 
 bg_label = t.Label(lg, image=bg_photo)
@@ -283,5 +283,6 @@ t.Button(dg, text="Exit", font=("Arial bold", 18), command=main.quit).pack(pady=
 
 lg.tkraise()
 container.pack(fill="both", expand=True)
+
 
 main.mainloop()
