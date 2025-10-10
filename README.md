@@ -1,4 +1,4 @@
-# 🏥 MedixCare — Smart Hospital Billing System
+# 🏥 CareHub — Smart Hospital Billing System
 
 A Python desktop application for hospital management: patient registration, automated billing, appointment scheduling, and digital payment support (QR + WhatsApp).  
 
