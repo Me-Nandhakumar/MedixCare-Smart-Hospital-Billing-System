@@ -1,24 +1,41 @@
-# CareHub 🏥💊
+# 🏥 MedixCare — Smart Hospital Billing System
 
-**CareHub** is a smart, Python-powered hospital management and billing system designed to make patient care and payments seamless, fast, and digital. From registering patients to generating bills and sending them via WhatsApp, MedixCare transforms traditional hospital workflows into a modern, automated experience.
-
----
-
-## 🚀 Key Features
-
-- **Secure Admin Access:** Only authorized personnel can manage patient data.
-- **Patient Registration:** Capture name, age, gender, weight, and contact details effortlessly.
-- **Smart Prescription System:** Suggests medicines automatically based on symptoms.
-- **Automated Billing:** Calculates total cost of medicines and prints a detailed bill.
-- **Digital Payments:** Accept Cash or UPI (GPay) with QR code integration.
-- **Instant WhatsApp Delivery:** Send bills directly to patients’ WhatsApp numbers.
-- **Patient Search:** Quickly fetch records using name or contact number.
+A Python desktop application for hospital management: patient registration, automated billing, appointment scheduling, and digital payment support (QR + WhatsApp).  
 
 ---
 
-## 💻 Installation
+## 🚀 Features
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/yourusername/medixcare.git
-cd medixcare
+- ✅ **Admin Login / Authentication**  
+- ✅ **Patient Registration & Records**  
+- ✅ **Symptom-Based Medicine Suggestions**  
+- ✅ **Automatic Bill Generation**  
+- ✅ **Payment Modes**: Cash & GPay (QR based)  
+- ✅ **WhatsApp Integration**: Send bill via WhatsApp  
+- ✅ **Appointment Scheduling**  
+- ✅ **Patient Search (by name/contact)**  
+- ✅ **Responsive GUI with background images**
+
+---
+
+## 🧰 Tech Stack & Dependencies
+
+- **Python 3.x**  
+- **GUI**: Tkinter  
+- **Database**: MySQL (connected via `pymysql`)  
+- **Other Libraries**:  
+  - `Pillow` (image handling)  
+  - `qrcode` (QR generation)  
+  - `pywhatkit` (WhatsApp automation)  
+  - `pyautogui` (keyboard/mouse automation)  
+
+All required dependencies are listed in `requirements.txt`.
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Me-Nandhakumar/MedixCare-Smart-Hospital-Billing-System.git
+   cd MedixCare-Smart-Hospital-Billing-System
